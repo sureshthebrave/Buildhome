@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Home-website</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+      integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+      crossorigin="anonymous"
+    ></script>
+
+    <!--  navbar section     -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#"
+          ><span class="text-warning">Build</span>Home</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ml">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Team</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!--     carosuel section      -->
+
+    <div id="carouselExampleCaptions" class="carousel slide">
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="images/home-1.jpg" class="d-block w-100" alt="..." />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>YOUR DREAM HOUSE</h5>
+            <p>
+              My dream home should be a perfect place where I should feel a
+              sense of security and togetherness with my family.
+            </p>
+            <button type="button" class="btn btn-warning">Learn More</button>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="images/home-2.jpg" class="d-block w-100" alt="..." />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>ALWAYS DEDICATED</h5>
+            <p>
+              The house I envision would be quite large, with four bedrooms and
+              a large common area. The house should be outfitted with all modern
+              conveniences.
+            </p>
+            <button type="button" class="btn btn-warning">Learn More</button>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="images/home-3.jpg" class="d-block w-100" alt="..." />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>TRUE CONSTRUCTIONS</h5>
+            <p>
+              Before starting construction, architects and engineers create
+              detailed plans for the house. A review at this stage involves
+              checking the blueprints and specifications to ensure they meet
+              building codes, zoning regulations, and the homeowner's
+              requirements.
+            </p>
+            <button type="button" class="btn btn-warning">Learn More</button>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <br /><br /><br><br>
+    <!--      about section     -->
+    <div class="container">
+      <div class="row">
+           <div class="col-md-5 text-center ">
+            <img src="images/about.jpg" alt="" height="400px">
+           </div>
+           <div class="col-md-7 text-left">
+            <h2>We Provide Best Quality <br> Services Ever</h2>
+            <p>Detail standout features of the house that make it special.
+              Examples could include a spacious backyard, modern kitchen, panoramic views, or innovative design elements.Specify the number of bedrooms, bathrooms, and any other living spaces.
+              Highlight any special rooms, such as a home office, gym, or entertainment space.Describe the interior style and design of the house.
+              Mention any unique design choices, decor, or architectural elements.Discuss any outdoor areas, such as gardens, patios, balconies, or decks.
+              Emphasize how these spaces can be utilized and enjoyed.ncorporate high-quality photographs that showcase the house's features and capture its ambiance.
+              Include images of both the interior and exterior spaces.Highlight nearby attractions, entertainment options, dining spots, or recreational activities.
+              Paint a picture of the lifestyle and experiences available in the surrounding area.</p>
+           
+              <button type="button" class="btn btn-warning ">Learn More</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <br><br><br><br>
+
+    <!--    services section     -->
+    <div class="container">
+      <div class="row">
+         <div class="col-md-12 text-center ">
+           <h2>Our Services </h2> 
+         </div>
+      </div>
+
+
+      <div class="row pt-5">
+        <div class="col-md-4 text-end">
+          <div class="card" style="width: 18rem;background-color: black;color: white;">
+            <div class="card-body">
+              <div class="icon text-center">
+              <i class="bi bi-subtract"></i>
+            </div>
+              <h5 class="card-title text-center">Best Quality</h5>
+              <p class="card-text text-center">Look for furniture made from durable and high-quality materials. For example, hardwoods like oak, maple, or walnut are often considered superior to softwoods.</p>
+              <p class="text-center">
+              <a href="#" class="btn btn-warning ">Read More</a>
+            </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 ">
+          <div class="card" style="width: 18rem;background-color: black;color: white;margin-left: 40px;">
+            <div class="card-body">
+              <div class="icon text-center">
+                <i class="bi bi-slack"></i>
+            </div>
+              <h5 class="card-title text-center">Sunstainability</h5>
+              <p class="card-text text-center">Opt for eco-friendly and sustainable building materials, such as reclaimed wood, bamboo, or recycled metal.
+                Choose drought-resistant plants for landscaping.</p>
+              <p class="text-center">
+              <a href="#" class="btn btn-warning ">Read More</a>
+            </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card" style="width: 18rem;background-color: black;color: white;margin-left: 80px;">
+            <div class="card-body">
+              <div class="icon text-center">
+                <i class="bi bi-playstation"></i>
+            </div>
+              <h5 class="card-title text-center">Integrity</h5>
+              <p class="card-text text-center">Using quality and durable materials in the construction and furnishing of the house to ensure longevity and minimize the need for frequent replacements.</p>
+              <p class="text-center">
+              <a href="#" class="btn btn-warning ">Read More</a>
+            </p>
+            </div>
+          </div>
+        </div>
+      </div>
+   
+
+      <br><br><br><br>
+      <!--     our projects section     -->
+
+        <div class="container">
+          <div class="row text-center">
+          <h2> Our Projects</h2>
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="row pt-5">
+            <div class="col-md-4">
+              <div class="card " style="width: 18rem;">
+                <img src="images/project-1.jpg" class="card-img-top" alt="...">
+                <div class="card-body text-center">
+                  <h5 class="card-title">Building Make</h5>
+                  <p class="card-text">Define the purpose of the building (residential, commercial, industrial, etc.).
+                    Develop a preliminary design and layout.
+                    Consider architectural, structural, and environmental factors.
+                    Obtain necessary permits and approvals.</p>                    
+                  <a href="#" class="btn btn-warning">Learn More</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="card " style="width: 18rem;margin-left:40px ;">
+                <img src="images/project-2.jpg" class="card-img-top" alt="...">
+                <div class="card-body text-center">
+                  <h5 class="card-title">House Make</h5>
+                  <p class="card-text">Determine the purpose of the house (residential, vacation home, etc.).
+                    Consider the number of rooms, layout preferences, and specific features you want.designer to create a detailed plan for your house.
+                  </p>                    
+                  <a href="#" class="btn btn-warning">Learn More</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card " style="width: 18rem;margin-left:80px ;">
+                <img src="images/project-3.jpg" class="card-img-top" alt="...">
+                <div class="card-body text-center">
+                  <h5 class="card-title">Apartment Make</h5>
+                  <p class="card-text">Determine the purpose of the apartment building (residential, commercial, mixed-use, etc.).
+                    Develop a budget that includes costs for land acquisition, construction, permits, and other associated expenses.
+                  </p>                    
+                  <a href="#" class="btn btn-warning">Learn More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+</div>
+
+<br><br><br><br>
+
+
+<!--    our team section      -->
+
+      <div class="container">
+        <div class="row text-center">
+          <h2>Our Team</h2>
+        </div>
+
+        <div class="row pt-5">
+          <div class="col-md-3 text-center">
+            <div class="card pt-4" style="width: 16rem;">
+              <img src="images/team-1.jpg" class="card-img-top w-25 m-auto rounded-circle" alt="..." >
+              <div class="card-body">
+                <h5 class="card-title">jack sparow</h5>
+                <p class="card-text">He is a great employee in our company .he was experienced in 10+ years.Good thinking & planning ability.</p>
+                <div class="socials">
+                  <i class="bi bi-twitter"></i>&nbsp;
+                  <i class="bi bi-facebook"></i>&nbsp;
+                  <i class="bi bi-linkedin"></i>&nbsp;
+                  <i class="bi bi-instagram"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        
+
+          <div class="col-md-3 text-center">
+            <div class="card pt-4" style="width: 16rem;">
+              <img src="images/team-2.jpg" class="card-img-top w-25 m-auto rounded-circle" alt="..." >
+              <div class="card-body">
+                <h5 class="card-title">Wilson</h5>
+                <p class="card-text">He is a great staff  in our company .he was experienced in 20+ years.Good thinking & planning ability.</p>
+                <div class="socials">
+                  <i class="bi bi-twitter"></i>&nbsp;
+                  <i class="bi bi-facebook"></i>&nbsp;
+                  <i class="bi bi-linkedin"></i>&nbsp;
+                  <i class="bi bi-instagram"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-md-3 text-center">
+            <div class="card pt-4" style="width: 16rem;">
+              <img src="images/team-3.jpg" class="card-img-top w-25 m-auto rounded-circle" alt="..." >
+              <div class="card-body">
+                <h5 class="card-title">Rose</h5>
+                <p class="card-text">She is a great employee in our company .She was experienced in 2+ years.Good thinking & planning ability.</p>
+                <div class="socials">
+                  <i class="bi bi-twitter"></i>&nbsp;
+                  <i class="bi bi-facebook"></i>&nbsp;
+                  <i class="bi bi-linkedin"></i>&nbsp;
+                  <i class="bi bi-instagram"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-md-3 text-center">
+            <div class="card pt-4" style="width: 16rem;">
+              <img src="images/team-4.jpg" class="card-img-top w-25 m-auto rounded-circle" alt="..." >
+              <div class="card-body">
+                <h5 class="card-title">Sam</h5>
+                <p class="card-text">She is a great employee in our company.
+                  She was experienced in 2+ years.Good thinking & planning ability.She is designer</p>
+                  <div class="socials">
+                    <i class="bi bi-twitter"></i>&nbsp;
+                    <i class="bi bi-facebook"></i>&nbsp;
+                    <i class="bi bi-linkedin"></i>&nbsp;
+                    <i class="bi bi-instagram"></i>
+                  </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+<br><br><br><br>
+
+
+<!-- contact us seection -->
+
+        <div class="container">
+          <div class="row">
+            <div class="col text-center">
+              <h2>Contact Us</h2>
+            </div>
+          </div>
+
+          <div class="row pt-5">
+            <div class="col">
+              <form action="#">
+              <div class="mb-3">
+                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Your Full Name">
+              </div>
+              <div class="mb-3">
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Your Email Here">
+              </div>
+              <div class="mb-3">
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Your Query Here"></textarea>
+              </div>
+              <button type="button" class="btn btn-warning w-100 mt-4">Send Now</button>
+            </div>
+          </form>
+          </div>
+        </div>
+
+<br><br><br><br>
+        <!--     footer section     -->
+
+        <footer class="bg-dark p-2 text-center pt-4">
+          <div class="container">
+            <p class="text-white">All Right Reserved @Homebuild</p>
+          </div>
+        </footer>
+
+  </body>
+</html>
